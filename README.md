@@ -2,7 +2,7 @@
 
 **For the reading part**
 | assignment's name| note                       | The link                     |
-| :---:            |     :---:                  |          :---:               |
+|------------------|----------------------------|------------------------------|
 | Read xx          | note for read xx file      | [Rxx](http://github.com)     |
 
 
