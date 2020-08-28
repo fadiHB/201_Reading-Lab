@@ -1,4 +1,4 @@
-# :sparkles: Welcome to the reading & Lab assignment for the 201 level that belongs to the student **MHD Fadi Hboubati**
+# :sparkles: Welcome to the reading & Lab assignments for the 201 level that belongs to the student **MHD Fadi Hboubati**
 
 **for reading part**
 | assignment's name| note                       | The link                     |
