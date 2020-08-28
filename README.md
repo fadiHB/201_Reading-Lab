@@ -8,11 +8,7 @@
 
 **For the Lab part**
 | assignment's name| note                       | The link                     |
-| :------:         |     :------:               |          :------:            |
+| :---------:      |     :---------:            |        ---------:            |
 | Lab xx           | note for lab xxx file      | [Lxx](http://github.com)     |
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
 
