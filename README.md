@@ -1,13 +1,12 @@
-#  Welcome to the reading & Lab assignment for the 201 level that belongs to the student **MHD Fadi Hboubati**
-## :no_smoking:  kindly
+# :sparkles: Welcome to the reading & Lab assignment for the 201 level that belongs to the student **MHD Fadi Hboubati**
 
 **for reading part**
-|assignment's name  | note            |  The link                     |
-| :---:             |    :---:        |   :----:                      |
-| read:xx           |                 | [Rxx](http://github.com)      |
+| assignment's name| note                       | The link                     |
+| :---:            |     :---:                  |          :---:               |
+| Read xx          | note for read xx file      | [Rxx](http://github.com)     |
 
-**for lab part**
-|assignment's name  | note           |  The link                      |
-| :---:             |    :---:       |    :----:                      |
-| lab:xx            |                | [Lxx](http://github.com)       |
 
+**for Lab part**
+| assignment's name| note                       | The link                     |
+| :---:            |     :---:                  |          :---:               |
+| Lab xx           | note for lab xxx file      | [Lxx](http://github.com)     |
