@@ -2,9 +2,9 @@
 
 **For the reading part**
 
-| assignment's name | note                       | The link                     |
-| ----------------- | -------------------------- | ---------------------------- |
-| Read xx           | note for read xx file      | [Rxx](http://github.com)     |
+| assignment's name | note                       | The link                                                   |
+| ----------------- | -------------------------- | -----------------------------------------------------------|
+| Read: 01          | tha same of Class-01       | [Read:01](https://fadihb.github.io/Level_201/class-01)     |
 
 
 **For the Lab part**
