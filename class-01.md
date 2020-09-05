@@ -29,7 +29,7 @@ Example Explained
 
 ![HTML](/img/element.png)
 
-Note: Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+Note: Some HTML elements have no content (like the < br> element). These elements are called empty elements. Empty elements do not have an end tag!
 
 ### Extra Markup
 
@@ -50,40 +50,27 @@ Notice that there is an exclamation point (!) in the start tag, but not in the e
 * Attributes usually come in name/value pairs like: name="value"
 
 3. **block & inline element**
-Some elements will always
-appear to start on a new line in
-the browser window. These are
-known as block level elements.
+Some elements will always appear to start on a new line in the browser window. These are known as block level elements.
 Examples of block elements are
 < h1 >, < p >, < ul >, and < li >.
 
-Some other elements will always
-appear to continue on the
-same line as their neighbouring
-elements. These are known as
-inline elements.
+Some other elements will always appear to continue on the same line as their neighbouring elements. These are known as inline elements.
 Examples of inline elements are
-<a>, <b>, <em>, and <img>
+< a>, < b>, < em>, and < img>
 
 4. **Groping text and element in a block & inline**
-The <div> element allows you to
-group a set of elements together
-in one block-level box.
+The < div> element allows you to group a set of elements together in one block-level box.
 
-The <span> element acts like
-an inline equivalent of the <div>
-element. It is used to either:
+The < span> element acts like an inline equivalent of the < div> element.
+It is used to either:
 - Contain a section of text
-where there is no other suitable
-element to differentiate it from
-its surrounding text
-- Contain a number of inline
-elements
+where there is no other suitable element to differentiate it from its surrounding text
+- Contain a number of inline elements
 
 4. <iframe>
 
 An HTML iframe is used to display a web page within a web page.
-The HTML <iframe> tag specifies an inline frame.
+The HTML < iframe > tag specifies an inline frame.
 Use the height and width attributes to specify the size of the iframe.
 for example :
 ![HTML](/img/ifram2.png)
@@ -129,16 +116,11 @@ the information you present.
 
  ***A script or scripting language*** is a computer language with a series of commands within a file capable of being executed without being compiled. Good examples of server-side scripting languages include Perl, PHP, and Python. The best example of a client side scripting language is JavaScript. A full list of scripting languages and other programming languages are found in our programming language definition.
 
-Each time the script runs, it might only use a subset of
-all the instructions.
+Each time the script runs, it might only use a subset of all the instructions.
 
-Computers approach tasks in a different way than
-humans, so your instructions must let the computer
-solve the task prggrammatically.
+Computers approach tasks in a different way than humans, so your instructions must let the computer solve the task prggrammatically.
 
-To approach writing a script, break down your goal into
-a series of tasks and then work out each step needed
-to complete that task (a flowchart can help).
+To approach writing a script, break down your goal into a series of tasks and then work out each step needed to complete that task (a flowchart can help).
 
 #### Advantages of scripts
 
