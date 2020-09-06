@@ -26,5 +26,6 @@
 | assignment's name | note                       | The link                     |
 |     :---:         |  :---:                     |        :---:                 |
 | Lab xx            | note for lab xxx file      | [Lxx](http://github.com)     |
-
-
+| Lab xx            | note for lab xxx file      | [Lxx](http://github.com)     |
+| Lab xx            | note for lab xxx file      | [Lxx](http://github.com)     |
+| Lab xx            | note for lab xxx file      | [Lxx](http://github.com)     |
