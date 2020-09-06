@@ -5,6 +5,20 @@
 | assignment's name | note                       | The link                                                   |
 | ----------------- | -------------------------- | -----------------------------------------------------------|
 | Read: 01          | tha same of Class-01       | [Read:01](https://fadihb.github.io/Level_201/class-01)     |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
+| Read: 00          |                            | [Read:00]()                                                |
 
 
 **For the Lab part**
