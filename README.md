@@ -4,7 +4,7 @@
 
 | assignment's name | note                       | The link                     |
 | ----------------- | -------------------------- | ---------------------------- |
-| Read xx           | note for read xx file      | [Rxx](http://github.com)     |
+| Read 01           | also class-01              | [Rxx](https://fadihb.github.io/Level_201/class-01)     |
 
 
 **For the Lab part**
