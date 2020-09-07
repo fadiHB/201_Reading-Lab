@@ -15,15 +15,18 @@ acronyms used, when given text is a quotation).
 
 
 # CSS part
+
 ## intro to CSS
 
 ### What is CSS?
+
 - CSS stands for Cascading Style Sheets
 - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
 - CSS saves a lot of work. It can control the layout of multiple web pages all at once
 - External stylesheets are stored in CSS files
 
 ### CSS Syntax
+
 A CSS rule-set consists of a selector and a declaration block:
 
 ![css](/imgC2/css2.PNG)
@@ -34,6 +37,7 @@ Each declaration includes a CSS property name and a value, separated by a colon.
 Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
 
 ### How To Add CSS ?
+
 There are three ways of inserting a style sheet:
 
 1. External CSS
@@ -124,6 +128,7 @@ Inline styles are defined within the "style" attribute of the relevant element:
             </html>
 
 ### CSS Selectors
+
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
 
 We can divide CSS selectors into five categories:
@@ -155,9 +160,11 @@ specifies Arial as the preferred typeface.
 although they may appear within an HTML page.
 
 # Javascript part
+
 ## Basic Javascript instructions
 
 ### JavaScript Programs
+
 A **computer program** is a list of "instructions" to be "executed" by a computer.
 
 In a programming language, these programming instructions are called **statements**.
@@ -171,6 +178,7 @@ Example
         z = x + y;      // Statement 4
 
 **whats is JavaScript Statements**
+
 JavaScript statements are composed of:
 Values, Operators, Expressions, Keywords, and Comments
 
@@ -186,6 +194,7 @@ One place you will find statements grouped together in blocks, is in JavaScript 
 
 
 ### COMMENTS
+
 JavaScript comments can be used to explain JavaScript code, and to make it more readable.
 JavaScript comments can also be used to prevent execution, when testing alternative code.
 
@@ -197,6 +206,7 @@ JavaScript comments can also be used to prevent execution, when testing alternat
  JavaScript (will not be executed).     |
 
 ### WHAT IS A VARIABLE? 
+
  JavaScript variables are containers for storing data values.
 
 In this example, x, y, and z, are variables:
@@ -206,6 +216,7 @@ In this example, x, y, and z, are variables:
             var z = x + y;
 
 ### How to Declear Variable ?
+
 Creating a variable in JavaScript is called "declaring" a variable.
 
 You declare a JavaScript variable with the var keyword:
@@ -222,6 +233,7 @@ You can also assign a value to the variable when you declare it:
 EX          var carName = "Volvo";
 
 ### JavaScript Data Types
+
 JavaScript variables can hold numbers like 100 and text values like "John Doe".
 
 In programming, text values are called text strings.
@@ -245,12 +257,14 @@ Example
 
 
 ### JavaScript Arrays
+
 JavaScript arrays are used to store multiple values in a single variable.
 Example
         var cars = ["Saab", "Volvo", "BMW"];
 
 
 ### Creating an Array
+
 Using an array literal is the easiest way to create a JavaScript Array.
 Syntax:
 Example
@@ -258,12 +272,14 @@ Example
 
 
 ### How Access the Elements of an Array?
+
 You access an array element by referring to the index number.
 This statement accesses the value of the first element in cars:
 Example:
         var name = cars[0];
 
 ### how to Changing an Array Element?
+
 This statement changes the value of the first element in cars:
 Example
         cars[0] = "Opel";
@@ -275,6 +291,7 @@ Example
 
 
 ### ARITHMETIC & Storing OPERATORS 
+
 JavaScript contains the following mathematical operators, which you can use with numbers.
 You may remember some from math class.
 ![oper](/imgC2/oper.PNG)
@@ -285,10 +302,12 @@ It is used to join the strings on either side of it.
 
 
 ## JavaScript Loops
+
 Loops are handy, if you want to run the same code over and over again, each time with a different value.
 Often this is the case when working with arrays
 
 ### Different Kinds of Loops
+
 JavaScript supports different kinds of loops:
 
 * for - loops through a block of code a number of times
@@ -326,6 +345,7 @@ Given that x = 6 and y = 3, the table below explains the logical operators:
 ![logic](/imgC2/logic.PNG)
 
 ### JavaScript if else and else if
+
  onditional statements are used to perform different actions based on different conditions.
 
 Conditional Statements
@@ -340,14 +360,17 @@ In JavaScript we have the following conditional statements:
 + Use switch to specify many alternative blocks of code to be executed
 
 #### The if Statement
+
 Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
 
 Syntax
-        if (condition) {
-        //  block of code to be executed if the condition is true
-        }
+
+            if (condition) {
+            //  block of code to be executed if the condition is true
+            }
 
 ### The else Statement
+
 Use the else statement to specify a block of code to be executed if the condition is false.
 
         if (condition) {
@@ -357,6 +380,7 @@ Use the else statement to specify a block of code to be executed if the conditio
         }
 
 ### The else if Statement
+
 Use the else if statement to specify a new condition if the first condition is false.
 
 Syntax
@@ -369,6 +393,7 @@ Syntax
         }
 
 **Example**
+
 If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening":
 
         if (time < 10) {
