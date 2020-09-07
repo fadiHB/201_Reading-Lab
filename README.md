@@ -2,15 +2,11 @@
 
 **For the reading part**
 
-<<<<<<< HEAD
-| assignment's name | note                       | The link                     |
-| ----------------- | -------------------------- | ---------------------------- |
-| Read 01           | also class-01              | [Rxx](https://fadihb.github.io/Level_201/class-01)     |
-=======
+
 | assignment's name | note                       | The link                                                   |
 | ----------------- | -------------------------- | -----------------------------------------------------------|
 | Read: 01          | tha same of Class-01       | [Read:01](https://fadihb.github.io/Level_201/class-01)     |
-| Read: 00          |                            | [Read:00]()                                                |
+| Read: 02          |                            | [Read:00](https://github.com/fadiHB/Level_201/blob/master/class-02)                                                |
 | Read: 00          |                            | [Read:00]()                                                |
 | Read: 00          |                            | [Read:00]()                                                |
 | Read: 00          |                            | [Read:00]()                                                |
