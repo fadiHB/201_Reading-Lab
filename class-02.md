@@ -1,5 +1,7 @@
 # HTML part
- ## Text
+
+## Text
+
 HTML contains several elements for defining text with a special meaning.
 
 ![text](/imgC2/text1.PNG)
@@ -194,7 +196,7 @@ JavaScript comments can also be used to prevent execution, when testing alternat
  end of the line will bbe ignored by    |ignored by JavaScript.
  JavaScript (will not be executed).     |
 
- ### WHAT IS A VARIABLE? 
+### WHAT IS A VARIABLE? 
  JavaScript variables are containers for storing data values.
 
 In this example, x, y, and z, are variables:
@@ -295,14 +297,90 @@ JavaScript supports different kinds of loops:
 * while - loops through a block of code while a specified condition is true
 * do/while - also loops through a block of code while a specified condition is true
 
+## Evaluating Conditions & Conditional Statements
+
+There are two components to a decision:
+1. An expression is ecaluated ,which return a value
+2. A conditional statement says what to do in a given stuation
+
+![compar](/imgC2/hfa.jpg)
+
+## comparison operato
+
+![compar](/imgC2/operjava.jpg)
+
+## Structuring comparison operators
+
+![str](/imgC2/str.PNG)
 
 
+### using Expression with comparasion operator
 
+![us](/imgC2/useEwC.PNG)
 
+### Logical operatos
+Logical operators are used to determine the logic between variables or values.
 
+Given that x = 6 and y = 3, the table below explains the logical operators:
 
+![logic](/imgC2/logic.PNG)
 
+### JavaScript if else and else if
+ onditional statements are used to perform different actions based on different conditions.
 
+Conditional Statements
+Very often when you write code, you want to perform different actions for different decisions.
+
+You can use conditional statements in your code to do this.
+In JavaScript we have the following conditional statements:
+
++ Use if to specify a block of code to be executed, if a specified condition is true
++ Use else to specify a block of code to be executed, if the same condition is false
++ Use else if to specify a new condition to test, if the first condition is false
++ Use switch to specify many alternative blocks of code to be executed
+
+#### The if Statement
+Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
+
+Syntax
+        if (condition) {
+        //  block of code to be executed if the condition is true
+        }
+
+### The else Statement
+Use the else statement to specify a block of code to be executed if the condition is false.
+
+        if (condition) {
+        //  block of code to be executed if the condition is true
+        } else {
+        //  block of code to be executed if the condition is false
+        }
+
+### The else if Statement
+Use the else if statement to specify a new condition if the first condition is false.
+
+Syntax
+        if (condition1) {
+        //  block of code to be executed if condition1 is true
+        } else if (condition2) {
+        //  block of code to be executed if the condition1 is false and condition2 is true
+        } else {
+        //  block of code to be executed if the condition1 is false and condition2 is false
+        }
+
+**Example**
+If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening":
+
+        if (time < 10) {
+        greeting = "Good morning";
+        } else if (time < 20) {
+        greeting = "Good day";
+        } else {
+        greeting = "Good evening";
+        }
+
+***Test***
+![testIf](/imgC2/testif.PNG)
 
 
 
