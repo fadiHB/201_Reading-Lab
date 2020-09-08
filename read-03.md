@@ -51,7 +51,7 @@ Property Values ( for height,max-height,min-height)
                 ( for width,max-width,min-width)
 
   Value   | Description Play it
- -----------------------------------------------------------------------
+ ---------|-------------------------------------------------------------
  auto |Default value. The browser calculates the width(height)
  length  |Defines the width(height) in px, cm, etc. Read about length units
  %     |Defines the width(height) in percent of the containing block
@@ -309,6 +309,7 @@ Example
             text += "The number is " + i;
             i++;
             }
+            
 ***If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.***
 
 ### The Do/While Loop
