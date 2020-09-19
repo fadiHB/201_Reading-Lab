@@ -1,4 +1,4 @@
-# mages
+# images
 
 - Controlling s XX ize of images in CSS
 - Aligning images in CSS
