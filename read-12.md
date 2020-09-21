@@ -1,4 +1,93 @@
-# EASILY CREATE STUNNING ANIMATED CHARTS WITH CHART.JS
+# What is HTML Canvas
+
+ ![r12](/r12/r12.png)
+The HTML < canvas> element is used to draw graphics, on the fly, via JavaScript.
+
+The < canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+## Canvas Examples
+
+A canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content.
+
+The markup looks like this:
+
+                <canvas id="myCanvas" width="200" height="100"></canvas>
+
+***Note:*** Always specify an id attribute (to be referred to in a script), and a width and height attribute to define the size of the canvas. To add a border, use the style attribute.
+
+## Add a JavaScript
+
+After creating the rectangular canvas area, you must add a JavaScript to do the drawing.
+
+Here are some examples:
+
+Draw a Line
+Example
+                                < script>
+                                    var c = document.getElementById("myCanvas");
+                                    var ctx = c.getContext("2d");
+                                    ctx.moveTo(0, 0);
+                                    ctx.lineTo(200, 100);
+                                    ctx.stroke();
+                                < /script>
+Draw a Circle
+Example
+                                < script>
+                                    var c = document.getElementById("myCanvas");
+                                    var ctx = c.getContext("2d");
+                                    ctx.beginPath();
+                                    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+                                    ctx.stroke();
+                                < /script>
+Draw a Text
+Example
+                                < script>
+                                    var c = document.getElementById("myCanvas");
+                                    var ctx = c.getContext("2d");
+                                    ctx.font = "30px Arial";
+                                    ctx.fillText("Hello World", 10, 50);
+                                < /script>
+Stroke Text
+Example
+                                < script>
+                                    var c = document.getElementById("myCanvas");
+                                    var ctx = c.getContext("2d");
+                                    ctx.font = "30px Arial";
+                                    ctx.strokeText("Hello World", 10, 50);
+                                < /script>
+Draw Linear Gradient
+Example
+                                < script>
+                                    var c = document.getElementById("myCanvas");
+                                    var ctx = c.getContext("2d");
+                                    < script>
+
+Create gradient
+
+                                var grd = ctx.createLinearGradient(0, 0, 200, 0);
+                                grd.addColorStop(0, "red");
+                                grd.addColorStop(1, "white");
+
+Fill with gradient
+                                ctx.fillStyle = grd;
+                                ctx.fillRect(10, 10, 150, 80);
+
+Draw Circular Gradient
+                                var c = document.getElementById("myCanvas");
+                                var ctx = c.getContext("2d");
+
+Create gradient
+                                var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+                                grd.addColorStop(0, "red");
+                                grd.addColorStop(1, "white");
+
+Fill with gradient
+                                ctx.fillStyle = grd;
+                                ctx.fillRect(10, 10, 150, 80);
+
+## EASILY CREATE STUNNING ANIMATED CHARTS WITH CHART.JS
 
 Charts are far better for displaying data visually than tables and have the added benefit that no one is ever going to press-gang them into use as a layout tool. They’re easier to look at and convey data quickly, but they’re not always easy to create
 
@@ -113,4 +202,3 @@ And finally, we add in the bar chart’s data:
 As you can see, the data is largely the same, except this time we’ve chosen to use RGBA to specify our colors which allows us to add transparency.
 
 
- ![f2](/r12/r111.png)
